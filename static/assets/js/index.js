@@ -17,6 +17,7 @@ if (form && input) {
     }
   });
 }
+
 function processUrl(value, path) {
   let url = value.trim();
   const engine = localStorage.getItem("engine");
